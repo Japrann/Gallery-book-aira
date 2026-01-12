@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gallery Book</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="hero-content">
+            <h1 class="hero-title fade-in">Gallery Book</h1>
+            <p class="hero-subtitle fade-in">Memories Worth Keeping</p>
+            <div class="scroll-indicator fade-in">
+                <span>Scroll</span>
+                <div class="scroll-arrow"></div>
+            </div>
+        </div>
+        <div class="hero-decoration"></div>
+    </section>
+
+    <!-- Gallery Section -->
+    <section class="gallery-section">
+        <div class="container">
+            <h2 class="section-title fade-in">Some Picture</h2>
+            <p class="section-subtitle fade-in">A collection of beautiful person</p>
+            
+            <div class="gallery-grid" id="gallery">
+                <!-- Gallery items will be dynamically added -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <p>dari japran <span class="heart">♥</span></p>
+    </footer>
+
+    <!-- Lightbox Modal -->
+    <div class="lightbox" id="lightbox">
+        <span class="lightbox-close" id="lightboxClose">&times;</span>
+        <img src="" alt="" id="lightboxImage">
+        <button class="lightbox-nav lightbox-prev" id="lightboxPrev">‹</button>
+        <button class="lightbox-nav lightbox-next" id="lightboxNext">›</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

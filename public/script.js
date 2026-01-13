@@ -15,8 +15,22 @@ const books = [
         "image": "images/book3.jpg",
         "title": "Momen-Momen Manis",
         "description": "Setiap senyum dan tawa yang kita bagikan, terangkum dalam buku ini."
+    },
+    {
+        "image": "images/book4.jpg",
+        "title": "Hari-Hari Biasa yang Luar Biasa",
+        "description": "Karena setiap hari bersamamu adalah sebuah anugerah yang patut dirayakan."
+    },
+    {
+        "image": "images/book5.jpg",
+        "title": "Perjalanan Kuliner",
+        "description": "Dari masakan rumah hingga kafe favorit, semua cerita tentang makanan yang kita nikmati bersama."
+    },
+    {
+        "image": "images/book6.jpg",
+        "title": "Impian dan Harapan",
+        "description": "Buku ini berisi semua impian yang kita bangun dan harapan yang kita doakan bersama untuk masa depan."
     }
-    // Tambahkan lebih banyak buku di sini
 ];
 
 function checkPasscode() {
